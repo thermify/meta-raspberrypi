@@ -1,0 +1,19 @@
+From 867e15d2772eabb786d6b95b98356cfa5d253fc2 Mon Sep 17 00:00:00 2001
+From: Shawn Ferry <sferry@gmail.com>
+Date: Tue, 22 Apr 2025 07:37:08 +0000
+Subject: [PATCH] Patch path to env for Yocto alternative detection
+
+---
+ kdtc/kdtc | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/kdtc/kdtc b/kdtc/kdtc
+index 2e763d9..b1eef91 100755
+--- a/kdtc/kdtc
++++ b/kdtc/kdtc
+@@ -1,4 +1,4 @@
+-#!/bin/env perl
++#!/usr/bin/env perl
+ 
+ use strict;
+ use Getopt::Long;
